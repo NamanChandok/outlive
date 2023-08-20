@@ -28,7 +28,7 @@ export default function About({}: Props) {
           </div>
           <div>
             <img src="team-ach.jpg" className='aspect-square object-cover rounded-full w-52 mx-auto' alt="Amayra Channa" />
-            <h3 className='text-3xl font-primary pt-4'>Amayra Channa</h3>
+            <h3 className='text-3xl font-primary pt-4'>Amayra Chanana</h3>
             <p className='text-outlive-blue'>Head of Social Outreach</p>
           </div>
         </div>
