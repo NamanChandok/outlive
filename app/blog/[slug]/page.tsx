@@ -32,9 +32,9 @@ const getPostMetadata = (): PostMetadata[] => {
 
 export const generateStaticParams = async () => {
   const posts = getPostMetadata();
-  return posts.map((post) => {
+  return posts.map((post) => ({
     slug: post.slug
-  });
+  }));
 }
 
 const getPostContent = (slug:string) => {
