@@ -16,11 +16,11 @@ export default function Hero({}: Props) {
         <p className='text-outlive-blue max-w-md'>In association with National Organ and Tissue Transplant Organization (NOTTO) set up with the Ministry Of Health and Family Welfare by Tagore International School, Vasant Vihar.</p>
         <a className='uppercase px-6 py-4 bg-outlive-red hover:bg-[#d01915] transition duration-300 ease-in-out text-white' href='https://goo.by/NbGPq'>Become a Donor Today</a>
         <div className='flex justify-between w-full'>
-          <a href='https://www.linkedin.com/in/project-outlive-yourself-412941274/'>Linkedin</a>
+          <a href='https://www.linkedin.com/in/project-outlive-yourself-412941274/' target='_blank'>Linkedin</a>
           <span className='text-outlive-blue'>&#x2022;</span>
-          <a href='https://www.youtube.com/@ProjectOutliveYourself'>YouTube</a>
+          <a href='https://www.youtube.com/@ProjectOutliveYourself' target='_blank'>YouTube</a>
           <span className='text-outlive-blue'>&#x2022;</span>
-          <a href='https://www.instagram.com/outliveyourself/'>Instagram</a>
+          <a href='https://www.instagram.com/outliveyourself/' target='_blank'>Instagram</a>
         </div>
       </div>
       <div className='bg-outlive-blue w-full md:w-1/2 flex items-end justify-start'>
