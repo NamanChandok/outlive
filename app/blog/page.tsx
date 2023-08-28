@@ -12,8 +12,16 @@ import { PostMetadata } from "@/components/PostMetadata"
 const getPostMetadata = (): PostMetadata[] => {
   const folder = 'posts/';
   const files = fs.readdirSync(folder);
-  const markdownPosts = files.filter((file) => file.endsWith(".md"));
-  const posts = markdownPosts.map((filename) => {
+  const markdownPosts = files.filter((file) => {
+    return fs.statSync(`posts/${file}`).isFile();
+  });
+  let sorted = markdownPosts.sort((a, b) => {
+    let aStat = fs.statSync(`posts/${a}`),
+        bStat = fs.statSync(`posts/${b}`);
+    
+    return new Date(bStat.birthtime).getTime() - new Date(aStat.birthtime).getTime();
+  });
+  const posts = sorted.map((filename) => {
     const fileContent = fs.readFileSync(`posts/${filename}`, 'utf8')
     const matterResult = matter(fileContent);
     return {
