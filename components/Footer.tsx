@@ -1,10 +1,13 @@
 import React from 'react'
+import { Cabin } from 'next/font/google'
+
+const cabin = Cabin({subsets: ['latin'], weight: 'variable'})
 
 type Props = {}
 
 export default function Footer({}: Props) {
   return (
-    <div className='px-8 py-12 md:px-48 bg-cream flex flex-col items-start justify-center gap-6 text-dark'>
+    <div className={cabin.className+' px-8 py-12 md:px-48 bg-cream flex flex-col items-start justify-center gap-6 text-dark'}>
         <div className='flex flex-col md:flex-row justify-between w-full gap-4'>
             <div className='flex flex-col gap-2'>
                 <h1 className='font-primary text-2xl pb-4'>Outlive Yourself</h1>
