@@ -37,7 +37,7 @@ export default function Footer({}: Props) {
             </div>
         </div>
         <hr className='border-[#a7a7a4] border-2 w-full' />
-        <p className='text-[#646461] text-sm'>Designed by <a className='underline decoration-outlive-blue underline-offset-2 underline-2 hover:text-dark transition duration-300 ease-in-out' href='https://namanchandok.github.io'>Naman Chandok</a> and Utkarsh Mishra</p>
+        <p className='text-[#646461] text-sm'>Designed and developed by <a className='underline decoration-outlive-blue underline-offset-2 underline-2 hover:text-dark transition duration-300 ease-in-out' href='https://namanchandok.github.io'>Naman Chandok</a> and Utkarsh Mishra</p>
     </div>
   )
 }
