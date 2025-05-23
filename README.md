@@ -2,10 +2,7 @@
 
 A modern, responsive web application designed to promote the "Outlive Yourself" campaign, encouraging individuals to consider organ donation and make a lasting impact.
 
-## 🌐 Live Demo
-
-Check out the live version of the website here:  
-👉 [outlive-yourself.vercel.app](https://outlive-yourself.vercel.app)
+Check out the live version of the website here: [outlive-yourself.vercel.app](https://outlive-yourself.vercel.app)
 
 ## 🛠️ Tech Stack
 
