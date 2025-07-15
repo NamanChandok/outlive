@@ -1,24 +1,18 @@
-# Outlive Yourself Campaign Website
+<img style="width:100%" alt="Outlive Yourself by TISVV" src="https://github.com/user-attachments/assets/04e05636-d64c-47e5-a606-81ce70e28012" />
 
+## 
 A modern, responsive web application designed to promote the "Outlive Yourself" campaign, encouraging individuals to consider organ donation and make a lasting impact.
 
 Check out the live version of the website here: [outlive-yourself.vercel.app](https://outlive-yourself.vercel.app)
 
-## 🛠️ Tech Stack
+## Tech Stack
 
-- **Framework**: [Next.js](https://nextjs.org/) (App Router)
+- **Framework**: [Next.js](https://nextjs.org/) 
 - **Styling**: [Tailwind CSS](https://tailwindcss.com/)
 - **Type Checking**: TypeScript
 - **Deployment**: [Vercel](https://vercel.com/)
 
-## 🧑‍💻 Getting Started
-
-### Prerequisites
-
-- [Node.js](https://nodejs.org/) (v14 or later)
-- [npm](https://www.npmjs.com/)
-
-### Installation
+## Getting Started
 
 1. **Clone the repository:**
 
@@ -40,16 +34,10 @@ Check out the live version of the website here: [outlive-yourself.vercel.app](ht
 
 4. Open your browser and navigate to http://localhost:3000
 
-## 📦 Available Scripts
-- `npm run dev`: Starts the development server.
-- `npm run build`: Builds the application for production.
-- `npm run start`: Starts the production server.
-- `npm run lint`: Runs ESLint to analyze code for potential issues.
-
-## 📄 License
+## License
 
 This project is licensed under the MIT License.
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! If you'd like to contribute to the project, please fork the repository and submit a pull request.
